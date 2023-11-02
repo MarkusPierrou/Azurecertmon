@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "WEBSITE_RUN_FROM_PACKAGE": "1",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "eba61978-2885-4837-af36-e7a8a8a8ca67",
+    "WEBSITE_NODE_DEFAULT_VERSION": "18.12.1",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=azurecertmon;AccountKey=3noqldmxjZGBQxM19Uo3a8Qel9cN1hL+Bkiyeo38dFMnSZJjKqG9hcCOq+G/vt6TBlkwV9MuJ0Lw+AStBoiTOQ==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "azurecertmon3a0480",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "WEBSITE_SITE_NAME": "AzureCertmon",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=azurecertmon;AccountKey=3noqldmxjZGBQxM19Uo3a8Qel9cN1hL+Bkiyeo38dFMnSZJjKqG9hcCOq+G/vt6TBlkwV9MuJ0Lw+AStBoiTOQ==;EndpointSuffix=core.windows.net"
+  }
+}
