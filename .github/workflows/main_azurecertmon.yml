@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js project to Azure Function App - AzureCertmon
+name: Build and deploy Node.js project to Azure Function App - azurecertmon
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
-          app-name: 'AzureCertmon'
+          app-name: 'azurecertmon'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_03E7269A3ACC474A9F35C57B700D14AA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5384F374DD014C438F96A0A52153074B }}
